@@ -2,15 +2,15 @@
 cask "linux-home-cloud-storage-sync" do
   depends_on :linux
 
-  version "0.6.0"
+  version "0.6.1"
 
   on_linux do
     on_arm do
-      sha256 "edd563f84805260f69f53951047e7b0c42305bcb6a7813caa55a587ac01667dd"
+      sha256 "a0d86ddb29502610adbf16a8f75cc3dff19514af09026aaa99b4bf43bc31f607"
       url "https://github.com/s3r3nity-labs/linux-home-cloud-storage-sync/releases/download/v#{version}/linux-home-cloud-storage-sync_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "107b2e7e10d718da7f829c1b6ec3b91c365f2107a0399ae0d8bcfb0192648232"
+      sha256 "d2e08ca0f6d53f1e26f6ed93d00b4107219488569d3b4ac663abfc032f98fe5f"
       url "https://github.com/s3r3nity-labs/linux-home-cloud-storage-sync/releases/download/v#{version}/linux-home-cloud-storage-sync_linux_amd64.tar.gz"
     end
   end
