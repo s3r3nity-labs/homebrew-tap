@@ -26,6 +26,7 @@ The casks need a current Homebrew; run `brew update` first if an install fails w
 | ---- | ----------- |
 | [linux-home-cloud-storage-sync](https://github.com/s3r3nity-labs/linux-home-cloud-storage-sync) | Keep a cloud-storage home folder linked into your Linux home |
 | [gacha-wish-url](https://github.com/s3r3nity-labs/gacha-wish-url) | Copy the wish/convene history URL of Genshin Impact or Wuthering Waves |
+| [mangohud-fps-switch](https://github.com/s3r3nity-labs/mangohud-fps-switch) | Switch MangoHud's FPS limit with profiles, also while a game is running |
 
 ```shell
 brew install s3r3nity-labs/tap/linux-home-cloud-storage-sync
