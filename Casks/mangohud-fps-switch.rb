@@ -2,15 +2,15 @@
 cask "mangohud-fps-switch" do
   depends_on :linux
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_linux do
     on_arm do
-      sha256 "34af17249529e52fed9d28f5a0c0d383e74a73118fe98a4f9a5daab64e1649e6"
+      sha256 "85e2f9ee8a8496eacd8447d057ceebc73f3020434473be89965c28b5c475405c"
       url "https://github.com/s3r3nity-labs/mangohud-fps-switch/releases/download/v#{version}/mangohud-fps-switch_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "346245b3c690189527cf146dede6af6f685339bc6272b36a880f55eba5771b42"
+      sha256 "b289f16d53baeb4f0f3ad27acbd5b74d3a02b1ea57845348d382924054e3aaab"
       url "https://github.com/s3r3nity-labs/mangohud-fps-switch/releases/download/v#{version}/mangohud-fps-switch_linux_amd64.tar.gz"
     end
   end
